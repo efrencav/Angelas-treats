@@ -1,0 +1,56 @@
+/* Info Boxes */
+.info-box {
+  display: flex;
+  align-items: center;
+  padding:1rem;
+  width: 100%;
+  border: 1px solid #dedede;
+
+  &:first-child {
+    margin-top: 1rem;
+  }
+
+  i {
+    font-size: 3.7rem;
+    margin-right: 2.7rem;
+    min-width: 5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+    color: $headings-text;
+
+    &::before {
+      margin: 0;
+      width: auto;
+    }
+  }
+
+  h4 {
+    margin-top: .2rem;
+    margin-bottom: 0;
+    color: $headings-text;
+    font: 600 1.4rem/1.1 $font-family;
+    letter-spacing: .025em;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    letter-spacing: .01em;
+  }
+
+
+  & + .info-box {
+    margin-top: -1px;
+  }
+}
+
+@include mq('lg') {
+  .info-box {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
