@@ -120,8 +120,8 @@ body {
     font-size: 15px;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.80857;
-    padding: 30px;
-    background-color: #f3f3f3;
+    /* padding: 30px;
+    background-color: #f3f3f3; */
 }
 
 a {
@@ -471,7 +471,7 @@ a img.aligncenter {
     color: #1f1f1f !important;
     font-size: 31px;
     font-weight: 700;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 50px;
     margin: 0;
     letter-spacing: 0;
     line-height: 1.4;
@@ -579,6 +579,10 @@ a img.aligncenter {
 
 .section.lb {
     background-color: #f3f3f3;
+}
+
+.section.white {
+    background-color: #ffffff;
 }
 
 .section.plum {
@@ -1265,17 +1269,17 @@ hr.invis {
 
 .macbookright {
     position: absolute;
-    right: -25%;
-    bottom: 15%;
-    width: 1000px;
+    right: -95%;
+    bottom: 5%;
+    width: 541px;
     z-index: 0;
 }
 
 .macbookleft {
     position: absolute;
-    left: -15%;
-    bottom: -10%;
-    width: 1000px;
+    left: -95%;
+    bottom: 5%;
+    width: 541px;
     z-index: 0;
 }
 
