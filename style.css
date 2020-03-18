@@ -589,12 +589,15 @@ a img.aligncenter {
     background-color: #680E4B;
 }
 
+.section.pink {
+    background-color: #e6e0ee;
+}
 .section.ltplum {
-    background-color: #854798;
+    background-color: #cbbfdc;
 }
 
 .section.darkPlum {
-    background-color: #42033D;
+    background-color: #6f5398;
 }
 
 .section.db {
@@ -636,13 +639,17 @@ a img.aligncenter {
 }
 
 /* Text color */
+.text-white{
+    color: #ffffff;
+}
 .text-plum {
     color: #680E4B;
 }
 
-.text-ltplum {
-    color: #854798;
+.text-ltpink {
+    color: #d2c7e0;
 }
+
 
 /*------------------------------------------------------------------
     6. PORTFOLIO
