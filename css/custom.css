@@ -1,3 +1,13 @@
 /*------------------------------------------------------------------
     ADD YOUR CUSTOM CSS HERE
 -------------------------------------------------------------------*/
+
+/* The Menu */
+.edgtf-pli-dots {
+    position: relative;
+    display: table-cell;
+    height: 3px;
+    width: 98%;
+    border-bottom: 1px dotted;
+    z-index: 1;
+}
