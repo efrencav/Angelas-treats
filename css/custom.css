@@ -3,11 +3,16 @@
 -------------------------------------------------------------------*/
 
 /* The Menu */
-.edgtf-pli-dots {
-    position: relative;
-    display: table-cell;
-    height: 3px;
-    width: 98%;
-    border-bottom: 1px dotted;
-    z-index: 1;
-}
+.linewrapper {
+    display: flex;
+    align-items: baseline;
+  }
+  .middle {
+    border-bottom: 1px dotted #222222;
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  .ingredients {
+    color: #686b70;
+    margin-bottom: 1em;
+  }
