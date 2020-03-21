@@ -75,35 +75,58 @@
                     </div><!-- end col -->
                 </div><!-- end row -->
 
-                <div class="row m45">
-                    <div class="col-md-8 col-md-offset-2 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-                        <div class="contact_form">
-                            <div id="message"></div>
-                            <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
-                                <fieldset class="row-fluid">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <button type="submit" value="SEND" id="submit" class="btn btn-primary">Get a Quote</button>
-                                    </div>
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div><!-- end col -->
-                </div><!-- end row -->
+                <!-- Form -->
+                <form name="contact" method="POST" data-netlify="true">
+                    <!-- <p>
+                      <label>Your Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                      <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                      <label>Your Role: <select name="role[]" multiple>
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                      </select></label>
+                    </p>
+                    <p>
+                      <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                      <button type="submit">Send</button>
+                    </p> -->
+                    <div class="row m45">
+                        <div class="col-md-8 col-md-offset-2 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                            <div class="contact_form">
+                                <div id="message"></div>
+                                <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                                    <fieldset class="row-fluid">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <button type="submit" value="SEND" id="submit" class="btn btn-primary">Get a Quote</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                  </form>
+
+                <!-- From end -->
 
                 <br>
 
